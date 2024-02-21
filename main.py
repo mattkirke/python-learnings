@@ -15,12 +15,32 @@
 
 # Boolean
 
-weather = input("What is the weather? rain? sunny? cloudy?")
-if weather == "rain":
-    print("Bring jacket")
-elif weather == "sunny":
-    print("Get your sunglasses out!")
-elif weather == "cloudy":
-    print("Take a hoodie!")
+# weather = input("What is the weather? rain? sunny? cloudy?")
+# if weather == "rain":
+#     print("Bring jacket")
+# elif weather == "sunny":
+#     print("Get your sunglasses out!")
+# elif weather == "cloudy":
+#     print("Take a hoodie!")
+# else:
+#     print("just leave the house")
+
+# Grades
+# >90 A 
+# >80 B 
+# >70 C 
+# >60 D 
+# <60 F 
+grade = int(input("What is your mark?"))
+if grade >= 90:
+    print("A")
+elif grade >= 80 and grade < 90:
+    print("B")
+elif grade >= 70 and grade < 80:
+    print("C")
+elif grade >= 60 and grade < 70:
+    print("D")
+elif grade > 60:
+    print("F")
 else:
-    print("just leave the house")
+    print("LOL")
